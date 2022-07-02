@@ -1,8 +1,9 @@
 # ⭐Mixed Messages⭐
-
-## Description 📝
 Mixed Messages is a program that displays a funny fictitious name, age of the person, <br>
 and the quote said by the person in the terminal at random.
+
+## Reflection 📝
+This section contains my reflection on the project. 
 
 ### Why Did I Build It? 🤓
 The main motivation behind creating this short application is: 
