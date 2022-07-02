@@ -4,13 +4,13 @@
 const data = [
   {
     fullName: 'Zoowee Blubberworth',
-    age: 24,
+    age: 53,
     quote:
       'I want my children to have all the things I couldn’t afford. Then I want to move in with them.',
   },
   {
     fullName: 'Flufffy Gloomkins',
-    age: 42,
+    age: 37,
     quote:
       'I used to sell furniture for a living. The trouble was, it was my own.',
   },
@@ -22,7 +22,7 @@ const data = [
   },
   {
     fullName: 'Eggpants Snothall',
-    age: 53,
+    age: 44,
     quote:
       'Common sense is like deodorant. The people who need it most never use it.',
   },
@@ -38,3 +38,11 @@ const randomize = (arr) => {
   const randomIndex = Math.floor(Math.random() * arr.length);
   return arr[randomIndex];
 };
+
+// Displays message in proper format
+const displayMessage = () => {
+  const message = randomize(data);
+  console.log(`${message.fullName}, ${message.age}, says: "${message.quote}"`);
+};
+
+displayMessage();
