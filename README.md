@@ -21,3 +21,7 @@ change directories to the mixed messages directory and run the program using the
 ## Technologies ⚒️
 The technologies that were used to build this project are:
 - Vanilla JavaScript
+
+## Contact Me 📫
+Feel free to reach out to me on LinkedIn because that's where I'm most active. <br>
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anirudh-vadlamani/)
