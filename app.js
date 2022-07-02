@@ -32,3 +32,9 @@ const data = [
     quote: 'A day without sunshine is like, you know, night.',
   },
 ];
+
+// Accepts an array and returns a random result
+const randomize = (arr) => {
+  const randomIndex = Math.floor(Math.random() * arr.length);
+  return arr[randomIndex];
+};
